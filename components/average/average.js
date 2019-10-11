@@ -10,9 +10,9 @@ const average = new Vue({
   },
   computed: {
     average1: function () {
-      const i = parseInt(this.num1)
-      const j = parseInt(this.num2)
-      const k = parseInt(this.num3)
+      const i = parseFloat(this.num1)
+      const j = parseFloat(this.num2)
+      const k = parseFloat(this.num3)
       return `The average is ${averagefunc(i, j, k)}.`
     }
   }
